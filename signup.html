@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h3 align="center">Sign up</h3>
+        <lable for="firstname">First Name:</lable>
+        <input type="text" name="fname" id="firstname" placeholder="eg:john"><br><br>
+        <lable for="lastname">Last Name:</lable>
+        <input type="text" name="sname" id="lastname" placeholder="Robert"><br><br>
+        <lable>Aadhar Number:</lable>  
+        <input type="tel" placeholder="eg:xxxx-xxxx-xxxx" size="16"><br><br>
+        <label for="email">Email Address:</label>
+        <input type="mail" name="email" id="email" autofocus placeholder="eg:xxxx@gmail.com"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="pswd" id="password" value="" size="10" autoplay><br><br>
+     <label>Date of Birth</label>
+     <input type="date" /><br><br>
+     <label>Select Gender:</label>
+     <select name="gender" id="gender">
+        <option value="Female">Female</option>
+        <option value="Male">Male</option>
+        <option value="Others">Others</option>
+     </select><br><br>
+     <label for="skill">Choose Skills:</label>
+     <input list="optns" name="optns">
+     <datalist id="optns">
+        <option value="html">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JS">Java Script</option>
+     </datalist><br>
+     <p>Already have an Account in W3Schools?</p>
+     <input type="radio" name="Account" value="yes">YES
+     <input type="radio" name="Account" value="no">NO<br><br>
+     <center><button type="submit" style="background-color: blue; color:white" formaction="./facebook.html">Create an Account</button></center>
+    </form>
+</body>
+</html>
